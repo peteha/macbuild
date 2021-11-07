@@ -39,17 +39,15 @@ brew install jq
 Python setup using pyenv.
 
 ```
-brew install pyenv
 pyenv install 3.10.0
 
-export PYENV_ROOT="$HOME/.pyenv" 
-export PATH="$PYENV_ROOT/bin:$PATH" 
-eval "$(pyenv init --path)" 
-eval "$(pyenv init -)"
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 
 which pip3
 echo "alias pip=<whichpip>" >> ~/.zshrc
-
 ```
 
 ### Gits
