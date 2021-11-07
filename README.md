@@ -40,11 +40,12 @@ Python setup using pyenv.
 
 ```
 brew install pyenv
-pyenv install 3.9.6
+pyenv install 3.10.0
 
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zprofile
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zprofile
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zprofile
+export PYENV_ROOT="$HOME/.pyenv" 
+export PATH="$PYENV_ROOT/bin:$PATH" 
+eval "$(pyenv init --path)" 
+eval "$(pyenv init -)"
 
 which pip3
 echo "alias pip=<whichpip>" >> ~/.zshrc
