@@ -10,18 +10,12 @@ brew "pyenv"
 brew "wget"
 cask "font-fira-code", args: { appdir: "/Applications" }
 cask "font-jetbrains-mono", args: { appdir: "/Applications" }
-cask "forklift", args: { appdir: "/Applications" }
 cask "google-chrome", args: { appdir: "/Applications" }
 cask "nova", args: { appdir: "/Applications" }
 cask "omnigraffle", args: { appdir: "/Applications" }
 cask "pycharm", args: { appdir: "/Applications" }
-cask "setapp", args: { appdir: "/Applications" }
-cask "spotify", args: { appdir: "/Applications" }
-cask "steermouse", args: { appdir: "/Applications" }
-cask "swiftbar", args: { appdir: "/Applications" }
 cask "textmate"
 cask "visual-studio-code", args: { appdir: "/Applications" }
-mas "1Password for Safari", id: 1569813296
 mas "Drafts", id: 1435957248
 mas "Keynote", id: 409183694
 mas "Microsoft Excel", id: 462058435
