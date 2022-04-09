@@ -6,6 +6,7 @@
 ```
 mkdir ~/dev
 mkdir ~/dev/git
+cd ~/dev/git
 git clone https://github.com/peteha/macbuild.git
 ```
 ~/dev/git/macbuild/preinstall.sh
