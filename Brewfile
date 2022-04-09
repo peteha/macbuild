@@ -15,6 +15,9 @@ cask "nova", args: { appdir: "/Applications" }
 cask "omnigraffle", args: { appdir: "/Applications" }
 cask "pycharm", args: { appdir: "/Applications" }
 cask "textmate"
+cask "alfred", args: { appdir: "/Applications" }
+cask "notion", args: { appdir: "/Applications" }
+cask "setapp", args: { appdir: "/Applications" }
 cask "visual-studio-code", args: { appdir: "/Applications" }
 mas "Drafts", id: 1435957248
 mas "Keynote", id: 409183694
